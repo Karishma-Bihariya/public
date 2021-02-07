@@ -1,7 +1,18 @@
 # Order Management Api
+How to build and run
+project can be compiled with JDK 8 and above javac.
+
+To compile just do mvn clean package.
+
+To run the application execute the following:
+
+java -jar target/order-0.0.1-SNAPSHOT.jar.
+
   Order Management Api is a Web Application  design to order various items as per customer requirement.
+  Repository, Service and ServiceImp classes are designed to 
   
-  It consists of Post Api for creating customer order :
+# Exploring the Rest APIs
+ It consists of Post Api for creating customer order :
    
    Request :
     URI  https://127.0.0.1:3306/orders
